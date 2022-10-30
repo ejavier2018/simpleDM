@@ -1,0 +1,55 @@
+INPUT RECORD:XXXXXXXXXXYYYYYYYYYY0000012345QQQQQQQQQQAAAAAAAAAA
+INPUT LENGTH:50
+Field Name  : FIRST_NAME
+Length      : 10
+Replacement : John
+Value       : XXXXXXXXXX
+====================================
+Field Name  : LAST_NAME
+Length      : 10
+Replacement : Doe
+Value       : YYYYYYYYYY
+====================================
+Field Name  : CIF
+Length      : 10
+Replacement : 
+Value       : 0000012345
+====================================
+Field Name  : ADDRESS1
+Length      : 10
+Replacement : Address A
+Value       : QQQQQQQQQQ
+====================================
+Field Name  : ADDRESS2
+Length      : 10
+Replacement : Address B
+Value       : AAAAAAAAAA
+====================================
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Field Name  : FIRST_NAME
+Length      : 10
+Replacement : John
+Value       : John      
+====================================
+Field Name  : LAST_NAME
+Length      : 10
+Replacement : Doe
+Value       : Doe       
+====================================
+Field Name  : CIF
+Length      : 10
+Replacement : 
+Value       : 0000012345
+====================================
+Field Name  : ADDRESS1
+Length      : 10
+Replacement : Address A
+Value       : Address A 
+====================================
+Field Name  : ADDRESS2
+Length      : 10
+Replacement : Address B
+Value       : Address B 
+====================================
+OUTPUT RECORD:John      Doe       0000012345Address A Address B 
+OUTPUT LENGTH:50

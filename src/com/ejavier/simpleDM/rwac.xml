@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file>
+	<filename>/somefolder/somepath/somefilename.txt</filename>
+	<header></header>
+	<detail>
+			<field length="10" name="FIRST_NAME" isStatic="false" replacement="John"></field>
+	    	<field length="10" name="LAST_NAME" isStatic="true" replacement="Doe"></field>
+	    	<field length="10" name="CIF" isStatic="true" replacement=""></field>
+	    	<field length="10" name="ADDRESS1" isStatic="true" replacement="Address A"></field>
+	    	<field length="10" name="ADDRESS2" isStatic="true" replacement="Address B"></field>
+	</detail>
+	<footer></footer>>
+</file>
